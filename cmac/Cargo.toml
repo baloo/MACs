@@ -1,6 +1,6 @@
 [package]
 name = "cmac"
-version = "0.8.0-pre"
+version = "0.8.0-pre.0"
 description = "Generic implementation of Cipher-based Message Authentication Code"
 authors = ["RustCrypto Developers"]
 license = "MIT OR Apache-2.0"
@@ -21,10 +21,10 @@ dbl = "0.4.0-pre.4"
 [dev-dependencies]
 digest = { version = "=0.11.0-pre.8", features = ["dev"] }
 hex-literal = "0.3"
-aes = "0.9.0-pre"
-des = "0.9.0-pre"
-kuznyechik = "0.9.0-pre"
-magma = "0.10.0-pre"
+aes = "=0.9.0-pre.0"
+des = "=0.9.0-pre.0"
+kuznyechik = "=0.9.0-pre.0"
+magma = "=0.10.0-pre.0"
 
 [features]
 std = ["digest/std"]
